@@ -1,0 +1,88 @@
+:root {
+  font-size: 16px;
+  font-family: 'Baloo Da 2', cursive;
+  font-weight: 500;
+  --text-primary: #5f5f5f;
+  --text-secondary: #bdbdbd;
+  --bg-primary: #23232313;
+  --bg-secondary: #141418;
+}
+
+body {
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #c5c5c5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ebebeb;
+}
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+.navBar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: var(--bg-primary);
+  transition: width 200ms ease;
+}
+
+.navBarNav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navItem {
+  width: 100%;
+}
+
+.navItem:last-child {
+  margin-top: auto;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.linkText {
+  display: none;
+  margin-left: 1rem;
+}
+
+.navLink svg {
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+
+.navBar:hover {
+  width: 16rem;
+}
+
+.navBar:hover .linkText {
+  display: block;
+}
+
+.fa-primary {
+  color: #af4f00;
+}

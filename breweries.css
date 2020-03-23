@@ -1,0 +1,150 @@
+
+:root {
+    font-size: 16px;
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 500;
+    --text-primary: #5f5f5f;
+    --text-secondary: #bdbdbd;
+    --bg-primary: #23232313;
+    --bg-secondary: #141418;
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+  }
+
+.navBar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: width 200ms ease;
+  }
+  
+  .navBarNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navItem {
+    width: 100%;
+  }
+  
+  .navItem:last-child {
+    margin-top: auto;
+  }
+  
+  .navLink {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+  }
+  
+  .linkText {
+    display: none;
+    margin-left: 1rem;
+  }
+  
+  .navLink svg {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+  }
+  
+  .navBar:hover {
+    width: 16rem;
+  }
+  
+  .navBar:hover .linkText {
+    display: block;
+  }
+  
+  .fa-primary {
+    color: #af4f00;
+  }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+}
+
+#doisCorvos {
+    border: 1px solid #000000;
+    border-radius: 0.2rem;
+    background-image: url(https://cdn.cmjornal.pt/images/2019-02/img_1280x720$2019_02_06_20_16_58_819159.jpg);
+    margin-bottom: 1rem;
+}
+
+#musa {
+    border: 1px solid #000000;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+#bolina {
+    border: 1px solid #000000;
+    border-radius:0.2rem;
+    margin-bottom: 1rem;
+}
+
+#lince {
+    border: 1px solid #000000;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.infoButton {
+  border: none;
+  outline: 0;
+  margin: 0px;
+  padding: 10px;
+  color: white;
+  background-color: #af4f00;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  align-items: center;
+  font-size: 2 rem;
+}
+
+.infoButton:hover {
+    opacity: 0.7;
+  }
+
+  p{
+    margin-left: 1rem;
+    font-style: italic;
+  }
+
+  h2 {
+      margin-left: 1rem;
+  }
+  h3 {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+
+}
+
+footer {
+    width: 100%;
+    margin-left: 5rem;
+    color: #000000;
+    font-size: 1rem;
+    text-align: center;
+}
