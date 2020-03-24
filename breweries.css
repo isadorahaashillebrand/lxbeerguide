@@ -120,7 +120,7 @@ main {
   cursor: pointer;
   width: 100%;
   align-items: center;
-  font-size: 2 rem;
+  font-size: 1rem;
 }
 
 .infoButton:hover {
@@ -130,6 +130,7 @@ main {
   p{
     margin-left: 1rem;
     font-style: italic;
+    font-size: 1rem;
   }
 
   h2 {
