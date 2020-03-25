@@ -18,6 +18,7 @@ body {
   background-color: white;
   margin-top: 0;
   margin-bottom: 0;
+  
 }
 
 body::-webkit-scrollbar {
@@ -116,8 +117,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 85%;
-    height: 50%;
+    width: 86%;
 }
 
 #doisCorvos {
@@ -172,6 +172,7 @@ body::-webkit-scrollbar-thumb {
      font-style: italic;
      color:#000;
      background-color:#ffce46;
+     font-size: 0.85rem;
   }
 
   h2 {
@@ -191,7 +192,6 @@ body::-webkit-scrollbar-thumb {
 
 footer {
     width: 100%;
-    margin-left: 5rem;
     color: #000000;
     font-size: 1rem;
     text-align: center;
@@ -199,4 +199,5 @@ footer {
 
 main {
   margin-left: 10rem;
+  padding: 1rem;
 }
