@@ -1,0 +1,18 @@
+
+:root {
+    font-size: 16px;
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 500;
+    --text-primary: #5f5f5f;
+    --text-secondary: #bdbdbd;
+    --bg-primary: #23232313;
+    --bg-secondary: #141418;
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
