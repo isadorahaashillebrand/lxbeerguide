@@ -1,0 +1,139 @@
+:root {
+    font-size: 16px;
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 500;
+    --text-primary: #494949;
+    --text-secondary: #ffce46;
+    --bg-primary: #23232327;
+    --bg-secondary: #14141844;
+    --transition-speed: 600ms;
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+    display: none;
+}
+
+body::-webkit-scrollbar-track {
+    background: #c5c5c5;
+    display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #ebebeb;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .header-img {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-image: url("assets/helena-lopes-beer-lisboa.jpg");
+    background-position: center;
+    background-size: cover;
+} */
+
+/* .header-text {
+    font-weight: bold;
+    font-size: 3rem;
+    position: fixed;
+    color: #fff;
+    text-shadow: -3px 0 #ffae0093, 0 3px #ffbb008f, 3px 0 #000000b0, 0 -3px #000000b0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* main {
+  margin-left: 5rem;
+  padding: 1rem;
+} */
+
+.navBar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: width 200ms ease;
+    z-index: 10;
+}
+
+.navBarNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navItem {
+    width: 100%;
+}
+
+.navItem:last-child {
+    margin-top: auto;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    filter: grayscale(30%) opacity(0.7);
+    transition: var(--transition-speed);
+}
+
+.linkText {
+    display: none;
+    margin-left: 1rem;
+}
+
+.navLink img {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.navBar:hover {
+    width: 16rem;
+}
+
+.navBar:hover .linkText {
+    display: block;
+}
+
+.navLink:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+}
+
+.logo {
+    text-align: center;
+}
+
+.bodyMargin {
+    /* margem esquerda da página excepto nav */
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+footer {
+    /* margem esquerda do footer */
+    margin-left: 5rem;
+    padding: 1rem;
+}
