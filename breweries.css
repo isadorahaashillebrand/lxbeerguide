@@ -128,8 +128,11 @@ main {
   }
 
   p{
-    margin-left: 1rem;
-    font-style: italic;
+     margin-left: 1rem;
+     margin-right:1rem;
+     font-style: italic;
+     color:#000;
+     background-color:#ffffff;
   }
 
   h2 {
