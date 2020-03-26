@@ -7,6 +7,7 @@
   --bg-primary: #23232327;
   --bg-secondary: #14141844;
   --transition-speed: 600ms;
+  margin-right: 0;
 }
 
 head{
@@ -15,7 +16,7 @@ head{
 
 body {
   color: black;
-  background-color:#000;
+  background-color: #ffffff;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -198,6 +199,6 @@ footer {
 }
 
 main {
-  margin-left: 5rem;
+  margin-left: 16rem;
   padding: 1rem;
 }
