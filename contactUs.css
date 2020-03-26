@@ -134,6 +134,24 @@ body::-webkit-scrollbar-thumb {
 
 footer {
     /* margem esquerda do footer */
+    display: flex;
     margin-left: 5rem;
     padding: 1rem;
+    margin-top: auto;
+}
+
+form input, textarea {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5em;
+    width: 100%;
+    border: 2px solid #FFCE46;
+}
+
+.contactMap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 88%;
 }
