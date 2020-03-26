@@ -47,7 +47,7 @@ body::-webkit-scrollbar-thumb {
   width: 5rem;
   height: 100vh;
   position: fixed;
-  background-color: var(--bg-primary);
+  background-color: #819160;
   transition: width 200ms ease;
   z-index: 10;
 }
@@ -120,32 +120,32 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 88%;
+    width: 100%;
 }
 
 #doisCorvos {
-    border:0.1rem solid #ffce46;
+    border:0.1rem solid #aba359;
     border-radius: 0.2rem;
     background-image: url("assets/doiscorvos.jpg");
     margin-bottom: 1rem;
 }
 
 #musa {
-    border: 0.1rem solid #ffce46;
+    border: 0.1rem solid #aba359;
     border-radius: 0.2rem;
     background-image: url("assets/musa.jpg");
     margin-bottom: 1rem;
 }
 
 #bolina {
-    border: 0.1rem solid #ffce46;
+    border: 0.1rem solid #aba359;
     border-radius:0.2rem;
     background-image: url("assets/bolina.jpg");
     margin-bottom: 1rem;
 }
 
 #lince {
-    border: 0.1rem solid #ffce46;
+    border: 0.1rem solid #aba359;
     border-radius: 0.2rem;
     background-image: url("assets/lince.jpg");
     margin-bottom: 1rem;
@@ -158,7 +158,7 @@ body::-webkit-scrollbar-thumb {
    padding: 10px;
    color: #000000;
    font-weight: bold;
-   background-color:#ffce46;
+   background-color:#aba359;
    text-align: center;
    cursor: pointer;
    width: 100%;
@@ -174,9 +174,9 @@ body::-webkit-scrollbar-thumb {
      margin-left: 1rem;
      margin-right:1rem;
      font-style: italic;
-     color:#000;
-     background-color:#ffce46;
-     font-size: 0.85rem;
+     color:#ffffff;
+     background-color:#aba359b6;
+     font-size: 1rem;
   }
 
   h2 {
@@ -198,11 +198,36 @@ footer {
     color: #000;
     font-size: 1rem;
     text-align: center;
-    margin-left: 9rem;
+    margin-left: 0rem;
     padding: 1rem;
 }
 
 main {
   margin-left: 16rem;
+  margin-right: 16rem;
   padding: 1rem;
+}
+
+@media (max-width: 961px){
+  main {
+    margin-left: 10rem;
+    margin-right: 0rem;
+    padding: 1rem;
+  }
+
+  p{
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
 }
