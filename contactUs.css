@@ -2,16 +2,16 @@
     font-size: 16px;
     font-family: 'Baloo Da 2', cursive;
     font-weight: 500;
-    --text-primary: #494949;
+    --text-primary: #b6b6b6;
     --text-secondary: #ffce46;
-    --bg-primary: #23232327;
-    --bg-secondary: #14141844;
+    --bg-primary: #B7B383;
+    --bg-secondary: #141418;
     --transition-speed: 600ms;
 }
 
 body {
     color: black;
-    background-color: white;
+    background-color: #f0f0f01f;
     margin: 0;
     padding: 0;
 }
@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background-image: url("assets/helena-lopes-beer-lisboa.jpg");
+    background-image: url("assets/christin-hume-08tX2fsuSLg-unsplash.jpg");
     background-position: center;
     background-size: cover;
 } */
@@ -128,7 +128,8 @@ body::-webkit-scrollbar-thumb {
 
 .bodyMargin {
     /* margem esquerda da página excepto nav */
-    margin-left: 5rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
     padding: 1rem;
 }
 
