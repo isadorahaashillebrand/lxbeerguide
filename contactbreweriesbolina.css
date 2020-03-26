@@ -15,7 +15,7 @@
   
   body {
     color: black;
-    background-color: #000000;
+    background-color: #e2dede;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -146,9 +146,22 @@
   display: block;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-	padding: 0.5em;
-	width: 100%;
-	border: 2px solid #ffce46;
+	padding: 0.8rem;
+	width: 20rem;
+  border: 2px solid #ffce46;
+}
+
+form textarea{
+height: 10rem;
+}
+
+.formButton{
+  width: 4rem;
+  float: right;
+  color: #000000;
+  font-weight: bold;
+  background-color:#ffce46;
+  text-align: center;
 }
 
  main {
