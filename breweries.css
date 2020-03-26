@@ -15,10 +15,9 @@ head{
 
 body {
   color: black;
-  background-color: white;
+  background-color:#000;
   margin-top: 0;
   margin-bottom: 0;
-  
 }
 
 body::-webkit-scrollbar {
@@ -117,32 +116,32 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 86%;
+    width: 88%;
 }
 
 #doisCorvos {
-    border:0.1rem solid #af4f00;
+    border:0.1rem solid #ffce46;
     border-radius: 0.2rem;
     background-image: url("assets/doiscorvos.jpg");
     margin-bottom: 1rem;
 }
 
 #musa {
-    border: 0.1rem solid #af4f00;
+    border: 0.1rem solid #ffce46;
     border-radius: 0.2rem;
     background-image: url("assets/musa.jpg");
     margin-bottom: 1rem;
 }
 
 #bolina {
-    border: 0.1rem solid #af4f00;
+    border: 0.1rem solid #ffce46;
     border-radius:0.2rem;
     background-image: url("assets/bolina.jpg");
     margin-bottom: 1rem;
 }
 
 #lince {
-    border: 0.1rem solid #af4f00;
+    border: 0.1rem solid #ffce46;
     border-radius: 0.2rem;
     background-image: url("assets/lince.jpg");
     margin-bottom: 1rem;
@@ -153,8 +152,9 @@ body::-webkit-scrollbar-thumb {
    outline: 0;
    margin: 0px;
    padding: 10px;
-   color: white;
-   background-color: #af4f00;
+   color: #000000;
+   font-weight: bold;
+   background-color:#ffce46;
    text-align: center;
    cursor: pointer;
    width: 100%;
@@ -176,9 +176,9 @@ body::-webkit-scrollbar-thumb {
   }
 
   h2 {
-     font-size: 2rem;
-     color: #000000;
-     text-shadow: -3px 0 #ffae0093, 0 3px #ffbb008f, 3px 0 #ffffff, 0 -3px #ffffff;
+     font-size: 2.2rem;
+     color: #ffffff;
+     text-shadow: -3px 0 #ffae0093, 0 3px #ffbb008f, 3px 0 #000000, 0 -3px #000000;
   }
   h3 {
     margin-left: 1rem;
@@ -192,7 +192,7 @@ body::-webkit-scrollbar-thumb {
 
 footer {
     width: 100%;
-    color: #000000;
+    color: #ffffff;
     font-size: 1rem;
     text-align: center;
 }

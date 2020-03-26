@@ -15,9 +15,12 @@
   
   body {
     color: black;
-    background-color: white;
+    background-color: #000000;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
   }
   
   body::-webkit-scrollbar {
@@ -69,7 +72,7 @@
     display: flex;
     align-items: center;
     height: 5rem;
-    color: black;
+    color: (var(--text-primary));
     text-decoration: none;
     filter: grayscale(30%) opacity(0.7);
     transition: var(--transition-speed);
@@ -112,9 +115,35 @@
     width: 100%; */
   }
 
+  .aboutBreweries{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 85%;
+  }
+
   h2 {
-    margin-left: 1rem;
-    font-size: 2rem;
-    color: #000000;
-    text-shadow: -3px 0 #ffae0093, 0 3px #ffbb008f, 3px 0 #ffffff, 0 -3px #ffffff;
+    font-size: 2.2rem;
+    color: #fff;
+    text-shadow: -3px 0 #ffae0093, 0 3px #ffbb008f, 3px 0 #000000, 0 -3px #000000;
  }
+
+ p{
+    font-style: italic;
+    color:#000;
+    background-color:#ffce46;
+    font-size: 0.85rem;
+ }
+
+ .contactandmap{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 88%;
+ }
+
+ main {
+    margin-left: 10rem;
+    padding: 1rem;
+  }
+
