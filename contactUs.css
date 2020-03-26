@@ -2,18 +2,24 @@
     font-size: 16px;
     font-family: 'Baloo Da 2', cursive;
     font-weight: 500;
-    --text-primary: #b6b6b6;
+    --text-primary: #494949;
     --text-secondary: #ffce46;
-    --bg-primary: #B7B383;
-    --bg-secondary: #141418;
+    --bg-primary: #23232327;
+    --bg-secondary: #14141844;
     --transition-speed: 600ms;
+}
+
+head {
+    margin-top: 0rem;
 }
 
 body {
     color: black;
-    background-color: #f0f0f01f;
-    margin: 0;
-    padding: 0;
+    background-color: #fff;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
 }
 
 body::-webkit-scrollbar {
@@ -22,40 +28,18 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #c5c5c5;
+    background: #000000;
     display: none;
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #ebebeb;
+    background: #000000;
 }
 
 .header {
     width: 100vw;
-    height: 100vh;
-    position: relative;
     overflow: hidden;
 }
-
-/* .header-img {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    background-image: url("assets/christin-hume-08tX2fsuSLg-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-} */
-
-/* .header-text {
-    font-weight: bold;
-    font-size: 3rem;
-    position: fixed;
-    color: #fff;
-    text-shadow: -3px 0 #ffae0093, 0 3px #ffbb008f, 3px 0 #000000b0, 0 -3px #000000b0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
 
 .navBar {
     width: 5rem;
@@ -87,7 +71,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     align-items: center;
     height: 5rem;
-    color: var(--text-primary);
+    color: (var(--text-primary));
     text-decoration: none;
     filter: grayscale(30%) opacity(0.7);
     transition: var(--transition-speed);
@@ -118,36 +102,98 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logo {
+    /* font-weight: bold;
+    margin-bottom: 1rem; */
+    /* position: relative;
+    top: calc(50% - 24px); */
     text-align: center;
+    /* color: var(--text-secondary);
+    background: var(--bg-secondary);
+    font-size: 1.2rem;
+    letter-spacing: 0.3ch;
+    width: 100%; */
 }
 
-.bodyMargin {
-    /* margem esquerda da página excepto nav */
-    margin-left: 16rem;
-    margin-right: 16rem;
-    padding: 1rem;
-}
-
-footer {
-    /* margem esquerda do footer */
+.aboutBreweries {
+    margin-left: 0px;
+    margin-right: 0px;
     display: flex;
-    margin-left: 5rem;
-    padding: 1rem;
-    margin-top: auto;
+    flex-direction: column;
+    align-content: center;
+    width: 88%;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #fff;
+    text-shadow: -3px 0 #ffae0093, 0 3px #ffbb008f, 3px 0 #000000, 0 -3px #000000;
+}
+
+p {
+    font-style: italic;
+    color: #000;
+    font-size: 1rem;
+}
+
+.contactandmap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 88%;
 }
 
 form input, textarea {
     display: block;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    padding: 0.5em;
-    width: 100%;
-    border: 2px solid #FFCE46;
+    padding: 0.8rem;
+    width: 20rem;
+    border: 2px solid #ffce46;
 }
 
-.contactMap {
+form textarea {
+    height: 10rem;
+}
+
+.formButton {
+    width: 4rem;
+    float: right;
+    color: #000000;
+    font-weight: bold;
+    background-color: #ffce46;
+    text-align: center;
+}
+
+.googlemaps iframe {
+    height: 25rem;
+    width: 50vw;
+}
+
+.formButton:hover {
+    opacity: 0.7;
+}
+
+main {
+    margin-left: 16rem;
+    margin-right: 4rem;
+    padding: 1rem;
+}
+
+/* .profile {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 88%;
+    max-width: 500px;
+} */
+
+.straightenImg {
+    display: inline-block;
+    margin-right: 1rem;
+    /* width: 200px; */
+}
+
+footer {
+    width: 100%;
+    color: #000;
+    font-size: 1rem;
+    text-align: center;
 }
