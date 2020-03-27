@@ -1,55 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Andre and Isadora" />
     <meta name="description" content="Lx Beer Guide - Wild Code School" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500&display=swap"
-      rel="stylesheet"/>  
+    <link rel="stylesheet" href="contactbreweriesdoiscorvos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>LxBeerGuide</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-    
-        <h1>LX BEER GUIDE</h1>
-    
-    <nav class="navBar">
-      <ul>
-        <li class="navText"><a href="COLOCAR A PAGINA AQUI">HOME</a></li>
-        <li class="navText"><a href="COLOCAR A PAGINA AQUI">BREWERIES</a></li>
-        <li class="navText"><a href="COLOCAR A PAGINA AQUI">CONTACT US</a></li>
-      </ul>
-    </nav>
-</header>
+        <div class="header">
+            <nav class="navBar">
+                <ul class="navBarNav">
+                    <li class="logo">
+                        <!-- <a href="#" class="logoIcon"> -->
+                        <img class="logoIcon" src="assets/_lxbg.svg" alt="lxbg">
+                        <!-- <span class="">LxBG</span> -->
+                    </li>
+                    <li class="navItem">
+                        <a href="index.html" class="navLink">
+                            <img src="assets/home.png" alt="home">
+                            <span class="linkText">HOME</span>
+                        </a>
+                    </li>
+                    <li class="navItem">
+                        <a href="breweries.html" class="navLink">
+                            <img src="assets/brewery.png" alt="breweries">
+                            <span class="linkText">BREWERIES</span>
+                        </a>
+                    </li>
+                    <li class="navItem">
+                        <a href="contactus.html" class="navLink">
+                            <img src="assets/mail.png" alt="contact">
+                            <span class="linkText">CONTACT</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="aboutBreweries">
+            <h2>ABOUT DOIS CORVOS</h2>
+            <p>Susana Cascais and Scott Steffens founded the company in late 2013 during the dark days of the Portuguese
+                economic
+                recession back when beer variety in Lisbon was non-existent. In 2014 brewing equipment was acquired and
+                the brewery
+                space was built out in Marvila, at that time a long-neglected industrial neighborhood. In 2015 the first
+                beers were
+                brewed and launched to the market and by the end of 2015 the Tap Room was opened, the first of its kind
+                in Portugal.
+            </p>
+            <p>A passion for brewing and a quest for making the best beers possible led to the production of dozens of
+                styles.
+                Hundreds of brews later, the mission remains intact - commitment to making honest and genuine craft
+                beers in a 100%
+                family-owned, independent environment that fosters innovation, inspiration and commitment to quality
+                beer.</p>
+            <p>Today the brewery in Marvila consists of a 20 hl production brewery with 20, 40, and 60 hl fermentation
+                tanks,
+                bottling and kegging lines, and a public tasting room with 17 taps.</p>
+            <p>Our bottles and kegs are distributed throughout Portugal and beyond.</p>
+        </section>
 
-<section class = "aboutBreweries">
-    <h2>ABOUT DOIS CORVOS</h2>
-        <p>Susana Cascais and Scott Steffens founded the company in late 2013 during the dark days of the Portuguese economic recession back when beer variety in Lisbon was non-existent. In 2014 brewing equipment was acquired and the brewery space was built out in Marvila, at that time a long-neglected industrial neighborhood. In 2015 the first beers were brewed and launched to the market and by the end of 2015 the Tap Room was opened, the first of its kind in Portugal.</p>
-        <p>A passion for brewing and a quest for making the best beers possible led to the production of dozens of styles. Hundreds of brews later, the mission remains intact - commitment to making honest and genuine craft beers in a 100% family-owned, independent environment that fosters innovation, inspiration and commitment to quality beer.</p>
-        <p>Today the brewery in Marvila consists of a 20 hl production brewery with 20, 40, and 60 hl fermentation tanks, bottling and kegging lines, and a public tasting room with 17 taps.</p>
-        <p>Our bottles and kegs are distributed throughout Portugal and beyond.</p>
-</section>
-
-<section class = "Form"> 
         <h2>CONTACT DOIS CORVOS</h2>
-        <input type="Name" placeholder="Name and Surname">
-        <input type="Phone" placeholder= "&#x260E;">
-        <input type="email" placeholder="@">
-        <textarea placeholder="Your message to Dois Corvos"></textarea>
-        <div class="divButton">
-            <input type="button" value="Send" class="formButton"> 
-        </div>        
-    </form>
+        <div class="contactandmap">
+            <form>
+                <input type="Name" placeholder="Name and Surname">
+                <input type="Phone" placeholder="&#x260E;">
+                <input type="email" placeholder="@">
+                <textarea placeholder="Your message to Dois Corvos"></textarea>
+                <div class="divButton">
+                    <input type="button" value="Send" class="formButton">
+                </div>
+            </form>
+            <div class="googlemaps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6224.240038439129!2d-9.105526!3d38.738008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1933de155c490b%3A0x127a3dafc3d6f854!2sR.%20Cap.%20Leit%C3%A3o%2094%2C%20Lisboa%2C%20Portugal!5e0!3m2!1spt-BR!2sus!4v1584710598960!5m2!1spt-BR!2sus"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
 
-</section>
-<section class = "map">
-    <div class = "googlemaps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6224.240038439129!2d-9.105526!3d38.738008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1933de155c490b%3A0x127a3dafc3d6f854!2sR.%20Cap.%20Leit%C3%A3o%2094%2C%20Lisboa%2C%20Portugal!5e0!3m2!1spt-BR!2sus!4v1584710598960!5m2!1spt-BR!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
-</section>
+            </div>
+        </div>
+    </main>
 </body>
+<footer>
+    <h4> © LX BEER GUIDE. All rights reserved. &#127867; </h4>
+</footer>
+
 </html>

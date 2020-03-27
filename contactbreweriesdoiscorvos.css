@@ -1,0 +1,233 @@
+:root {
+    font-size: 16px;
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 500;
+    --text-primary: #494949;
+    --text-secondary: #ffce46;
+    --bg-primary: #23232327;
+    --bg-secondary: #14141844;
+    --transition-speed: 600ms;
+}
+
+head {
+    margin-top: 0rem;
+}
+
+body {
+    color: black;
+    background-color: #fff;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+    display: none;
+}
+
+body::-webkit-scrollbar-track {
+    background: #000000;
+    display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #000000;
+}
+
+.header {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.navBar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: #819160;
+    transition: width 200ms ease;
+    z-index: 10;
+}
+
+.navBarNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navItem {
+    width: 100%;
+}
+
+.navItem:last-child {
+    margin-top: auto;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: (var(--text-primary));
+    text-decoration: none;
+    filter: grayscale(30%) opacity(0.7);
+    transition: var(--transition-speed);
+}
+
+.linkText {
+    display: none;
+    margin-left: 1rem;
+}
+
+.navLink img {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.navBar:hover {
+    width: 16rem;
+}
+
+.navBar:hover .linkText {
+    display: block;
+}
+
+.navLink:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+}
+
+.logo {
+    /* font-weight: bold;
+    margin-bottom: 1rem; */
+    /* position: relative;
+    top: calc(50% - 24px); */
+    text-align: center;
+    /* color: var(--text-secondary);
+    background: var(--bg-secondary);
+    font-size: 1.2rem;
+    letter-spacing: 0.3ch;
+    width: 100%; */
+}
+
+.aboutBreweries {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 88%;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    text-shadow: -3px 0 #ffae0093, 0 3px #ffbb008f, 3px 0 #000000, 0 -3px #000000;
+}
+
+p {
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.contactandmap {
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+}
+
+form input, textarea {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.8rem;
+    width: 20rem;
+    border: 2px solid #dec06a;
+}
+
+form textarea {
+    height: 10rem;
+}
+
+.formButton {
+    width: 4rem;
+    float: right;
+    color: #000000;
+    font-weight: bold;
+    background-color: #dec06a;
+    text-align: center;
+}
+
+.googlemaps iframe {
+    height: 20rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.formButton:hover {
+    opacity: 0.7;
+}
+
+main {
+    margin-left: 16rem;
+    margin-right: 4rem;
+    padding: 1rem;
+}
+
+footer {
+    width: 100%;
+    color: #000;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 961px) {
+    .contactandmap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    main {
+        margin-left: 10rem;
+        margin-right: 0rem;
+        padding: 1rem;
+    }
+    form input, textarea {
+        display: block;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        padding: 0.5rem;
+        width: 100%;
+        border: 2px solid #dec06a;
+    }
+    form textarea {
+        height: 10rem;
+    }
+    .formButton {
+        width: 4rem;
+        float: right;
+        color: #000000;
+        font-weight: bold;
+        background-color: #dec06a;
+        text-align: center;
+    }
+    p {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    footer {
+        font-size: 0.8rem;
+    }
+    .googlemaps iframe {
+        height: 15rem;
+        width: 100%;
+    }
+}
